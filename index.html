@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css'> -->
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        /* text-align: center; */
+        padding-top: 2rem;
+        color: rgb(255, 255, 255);
+        font-family: sans-serif;
+    }
+
+    .container {
+        padding-top: 2rem;
+        margin: 0 auto;
+        width: 30rem;
+        background: linear-gradient(#5696ca, #545baa);
+        min-height: 30rem;
+    }
+
+    h1 {
+        margin: 0 auto;
+        width: auto;
+        width: intrinsic;
+        width: -moz-max-content;
+    }
+
+    li {
+        list-style-type: none;
+        background-color: #16174f;
+        padding: 1.5rem;
+        cursor: pointer;
+        margin: 0 2.5rem .5rem 0;
+        font-weight: bold;
+        font-size: 120%;
+
+    }
+
+    span {
+        float: right
+    }
+    .total{
+        margin: 0 2.5rem;
+        padding: 1.5rem;
+        border-top: white solid 1px;
+        font-weight: bold;
+        font-size: 120%;
+     }
+     .active{
+         background-color: #96dac0;
+         font-size: +1.4rem;
+         color: #16174f
+     }
+</style>
+
+<body>
+
+    <div id="app">
+
+        <div class="container">
+            <h1>Services</h1>
+
+            <ul>
+                <item>Web Development <span>$300.00</span></item>
+                <item>Design <span>$400.00</span></item>
+                <item>Integration <span>$500.00</span></item>
+                <item>Training <span>$200.00</span></item>
+            </ul>
+            <div class='total'>
+                Total: <span>$0.00</span>
+            </div>
+        </div>
+    </div>
+    <script src="./vue.js"></script>
+</body>
+
+</html>
